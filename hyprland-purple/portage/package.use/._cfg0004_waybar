@@ -1,0 +1,4 @@
+gui-apps/waybar tray wifi network mpd
+# required by app-misc/ani-cli-4.10::guru
+# required by ani-cli (argument)
+>=net-misc/aria2-1.37.0 adns
