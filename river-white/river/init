@@ -2,6 +2,8 @@
 
 sh ~/.config/river/startup.sh
 
+keyboard-layout -options "grp:win_space_toggle" "pl,ru"
+
 riverctl map normal Super Q spawn kitty
 
 riverctl map normal Super R spawn "wofi -S drun -b"
