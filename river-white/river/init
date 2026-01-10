@@ -2,7 +2,11 @@
 
 sh ~/.config/river/startup.sh
 
-keyboard-layout -options "grp:win_space_toggle" "pl,ru"
+systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=river
+systemctl --user restart xdg-desktop-portal
+
+riverctl keyboard-layout -options "grp:win_space_toggle" "pl,ru"
 
 riverctl map normal Super Q spawn kitty
 
