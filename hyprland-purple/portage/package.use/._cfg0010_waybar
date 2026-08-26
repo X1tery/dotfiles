@@ -1,4 +1,0 @@
-gui-apps/waybar tray wifi network mpd
-# required by net-im/telegram-desktop-6.0.2-r1::gentoo
-# required by telegram-desktop (argument)
->=media-video/ffmpeg-7.1.2 opus vpx

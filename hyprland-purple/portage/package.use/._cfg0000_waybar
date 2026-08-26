@@ -1,4 +1,0 @@
-gui-apps/waybar tray wifi network mpd
-# required by www-client/firefox-140.4.0::gentoo[system-libvpx]
-# required by firefox (argument)
->=media-libs/libvpx-1.15.2 postproc
